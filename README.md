@@ -1,12 +1,15 @@
-# 🐱 CatLover App [![APK Download](https://img.shields.io/badge/Download%20APK-v1.0.0-blue)](https://your-apk-link.com)
+# 🐱 CatLover App 
 
 Приложение для любителей котиков с возможностью лайков, фильтрации и детальным просмотром пород
 
 <div align="center">
-  <img src="screenshots/main.jpg" width="200" alt="Главный экран">
-  <img src="screenshots/detail.jpg" width="200" alt="Детали котика">
-  <img src="screenshots/favorites.jpg" width="200" alt="Избранное">
-  <img src="screenshots/error.jpg" width="200" alt="Ошибка">
+  <img src="./assets/screenshots/main.jpg" width="200">
+  <img src="./assets/screenshots/details.jpg" width="200">
+  <img src="./assets/screenshots/error_state.jpg" width="200" >
+  <img src="./assets/screenshots/error.jpg" width="200">
+  <img src="./assets/screenshots/liked.jpg" width="200" >
+  <img src="./assets/screenshots/loading.jpg" width="200" >
+  <img src="./assets/screenshots/filter.jpg" width="200" >
 </div>
 
 ## 🌟 Основные возможности
@@ -30,45 +33,25 @@
 ### Экран деталей
 - Полная информация о породе
 - Характеристики темперамента
-- Ссылки на Wikipedia
 - Качественные изображения
 
 ### Избранное
 - История лайков с датами
 - Поиск по породам
-- Фильтрация через чипы
-- Удаление свайпом
-- Анимации удаления
+- Фильтрация по породам
 
 ### Технические фичи
 - Прогресс-бары при загрузке
 - Диалоги ошибок сети
-- Авто-повтор запросов
-- Локализация дат
-- Адаптивная верстка
 
 ## 🛠 Технологии
 
 **Архитектура:**
 - Clean Architecture (Data-Domain-Presentation)
-- BLoC для управления состоянием
+- Cubit для управления состоянием
 - Dependency Injection (get_it)
 
 **Основные пакеты:**
 - `http` - работа с API
 - `cached_network_image` - кеш изображений
 - `flutter_bloc` - state management
-- `url_launcher` - открытие ссылок
-- `intl` - форматирование дат
-
-**Кодстайл:**
-- Dart 3 null-safety
-- SOLID принципы
-- Effective Dart guidelines
-- Custom linter rules
-
-## 📦 Установка
-
-1. Клонировать репозиторий:
-```bash
-git clone https://github.com/yourname/catlover.git
