@@ -5,11 +5,11 @@
 <div align="center">
   <img src="./assets/screenshots/main.png" width="200">
   <img src="./assets/screenshots/details.png" width="200">
-  <img src="./assets/screenshots/error_state.jpg" width="200" >
-  <img src="./assets/screenshots/error.jpg" width="200">
-  <img src="./assets/screenshots/liked.jpg" width="200" >
-  <img src="./assets/screenshots/loading.jpg" width="200" >
-  <img src="./assets/screenshots/filter.jpg" width="200" >
+  <img src="./assets/screenshots/error_state.png" width="200" >
+  <img src="./assets/screenshots/error.png" width="200">
+  <img src="./assets/screenshots/liked.png" width="200" >
+  <img src="./assets/screenshots/loading.png" width="200" >
+  <img src="./assets/screenshots/filter.png" width="200" >
 </div>
 
 ## 🌟 Основные возможности
