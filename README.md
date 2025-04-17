@@ -3,8 +3,8 @@
 Приложение для любителей котиков с возможностью лайков, фильтрации и детальным просмотром пород
 
 <div align="center">
-  <img src="assets/screenshots/main.jpg" width="200">
-  <img src="./assets/screenshots/details.jpg" width="200">
+  <img src="./assets/screenshots/main.png" width="200">
+  <img src="./assets/screenshots/details.png" width="200">
   <img src="./assets/screenshots/error_state.jpg" width="200" >
   <img src="./assets/screenshots/error.jpg" width="200">
   <img src="./assets/screenshots/liked.jpg" width="200" >
